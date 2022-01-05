@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width==device-width , initial-scale=1.0">
+    <title>Neuroscience</title>
+</head>
+<style>
+    body {
+        background-image: url("https://neuropraxissursee.ch/wp-content/uploads/2018/12/NeuroPraxisSursee11_rechts_121451850.jpg");
+        background-size: 10%;
+        font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
+        margin: 50px;
+        padding: 70px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+
+    }
+
+    section {
+        margin: 10px;
+    }
+
+
+    div {
+        box-shadow: (37 39 89 / 30%);
+        background-color: rgb(183, 209, 226);
+        opacity: 0.9;
+        border-radius: 30px;
+        color: black;
+        padding: 8px;
+        width: 80%;
+        margin: 2px auto;
+        text-align: center;
+        font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 50px;
+        margin: auto;
+        color: rgb(168, 87, 97);
+        text-align: center;
+        padding: 10px;
+    }
+
+
+
+
+
+    img {
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+        padding: 3px;
+
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 28px;
+        font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
+        text-align: justify;
+        color: #fff;
+        padding: 50px 30px 50px;
+        margin: 30px auto;
+        border: 2px solid #a85761;
+        background: #a85761;
+        border-radius: 8px;
+
+    }
+
+    ul {
+        list-style: none;
+        text-decoration: none;
+        padding: 15px;
+        text-align: center;
+        color: #fff;
+    }
+
+    li {
+        display: inline;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .menu {
+        list-style-type: none;
+        text-decoration: none;
+        background: #a85761;
+        padding: 10px;
+        margin: 10 auto;
+        text-align: center;
+        border-radius: 5px;
+
+    }
+
+    .cv {
+        color: #fff;
+    }
+
+    .books {
+        color: #fff;
+    }
+
+    button {
+        border-radius: 35px;
+        margin: 0 auto;
+        display: block;
+        background-color: #fff;
+        border: 1px solid #2f3479;
+        box-shadow: 0 1px 20px rgb(0 0 0 / 50%);
+        color: #03010e;
+        font-size: 16px;
+        line-height: 22px;
+        margin: center;
+        padding: 20px 20px;
+        text-decoration: none;
+        transition: all 200ms ease;
+
+    }
+
+    button:hover {
+        color: #fff;
+        background: #89C2D9;
+    }
+
+    footer {
+        font-size: 15px;
+        color: #a85761;
+        padding: 30px;
+    }
+</style>
+</head>
+
+
+<body>
+    <div>
+        <section>
+            <h1>
+                What is Cognitive Neuroscience?
+            </h1>
+
+            <ul class="menu">
+
+                <li>
+
+                    <a href="https://www.linkedin.com/in/gizem-belk%C4%B1s-ceylan-b85194137/" target="_blank"
+                        class="cv">
+                        Who I am?
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://fivebooks.com/best-books/dick-passingham-cognitive-neuroscience/" target="_blank"
+                        class="books">
+                        Recommended Books
+                        <a>
+                </li>
+
+            </ul>
+
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/005/830/original/brain-2789698_1280.png?1616235441"
+                width=300 alt="brain" />
+
+            <p>
+                Cognitive neuroscience is the scientific field that is concerned with the study of the biological
+                processes and aspects
+                that underlie cognition, with a specific focus on the neural connections in the brain which are involved
+                in mental
+                processes. It addresses the questions of how cognitive activities are affected or controlled by neural
+                circuits in the
+                brain. Cognitive neuroscience is a branch of both neuroscience and psychology, overlapping with
+                disciplines such as
+                behavioral neuroscience, cognitive psychology, physiological psychology and affective
+                neuroscience.Cognitive
+                neuroscience relies upon theories in cognitive science coupled with evidence from neurobiology, and
+                computational
+                modeling.
+                <small>(wikipedia)</small>
+                </br>
+                </br>
+                <strong>
+                    Do you want to learn more about cognitive neuroscience?
+                </strong> </br>
+                Subscribe to our weekly newsletter!
+
+            </p>
+
+
+            <button>
+                Subscribe 🧠
+            </button>
+
+            <footer>
+                Coded by Gizem B. Ceylan
+            </footer>
+
+        </section>
+
+        <script>
+            function apply() {
+
+                let name = prompt(" What is your name?");
+
+                let mail = prompt("What is your email adress?");
+
+                if (name) {
+                    alert("Hey" + " " + name + "," + " " + "thank you for subscribing 🧠")
+
+                }
+                else {
+                    alert("name is incorrect!")
+                }
+
+            }
+
+            let applyButton = document.querySelector("button");
+
+            applyButton.addEventListener("click", apply);
+
+
+        </script>
+</body>
+</div>
+
+</html>
